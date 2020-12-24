@@ -60,7 +60,7 @@ function makeSound(key) {
 
 }
 
-function buttonAniamtion( currenkey){
+function buttonAniamtion(currenkey){
     var activeButton =  document.querySelector("."+currenkey);
     activeButton.classList.add("pressed");
 
